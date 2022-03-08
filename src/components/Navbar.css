@@ -137,11 +137,21 @@
     }
 
     .nav-btn {
-        width: 100%;
+        width: 90%;
         height: 120px;
+        display: block;
+        /* align-self: center; */
+        /* justify-self: center; */
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .btn-link{
+        /* justify-self: center; */
+        text-align: center;
+        width: 80%;
+        
     }
 
 
