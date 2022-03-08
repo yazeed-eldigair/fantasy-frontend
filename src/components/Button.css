@@ -4,7 +4,7 @@
 
 .btn {
     padding: 8px 20px;
-    border-radius: 4px;
+    border-radius: 6px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -18,7 +18,7 @@
 }
 
 .btn--outline{
-    background-color: transpert;
+    background-color: transparent;
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
