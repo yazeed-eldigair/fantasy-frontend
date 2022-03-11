@@ -13,7 +13,7 @@ function Pricing() {
       <div>
         <div className="pricing-section">
           <div className="pricing-wraper">
-            <h2 className="pricing-heading">Pricing</h2>
+            <h1 className="pricing-heading">Pricing</h1>
             <div className="pricing-container">
               <Link to="/sign-up" className="pricing-container-card">
                 <div className="pricing-container-cardInfo">
