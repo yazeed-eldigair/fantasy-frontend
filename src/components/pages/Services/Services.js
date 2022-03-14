@@ -1,15 +1,15 @@
 import React from "react";
 import HomeSection from "../../HomSection/HomeSection";
 import { homeData } from "./Data";
+import Pricing from "../../Pricing/Pricing";
 
-function Home() {
+function Services() {
   return (
     <>
+      <Pricing /> 
       <HomeSection {...homeData[0]} />
-      <HomeSection {...homeData[1]} />
-      <HomeSection {...homeData[2]} />
     </>
   );
 }
 
-export default Home;
+export default Services;

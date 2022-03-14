@@ -112,8 +112,11 @@
 
   .pricing-container-card:nth-child(2) {
     transform: scale(1);
-    background-color: #242424;
     margin: 24px;
+  }
+
+  .pricing-container-card:nth-child(2):hover {
+    transform: none;
   }
 
   .pricing-container-card:hover {

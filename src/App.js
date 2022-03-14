@@ -1,18 +1,21 @@
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './components/pages/Home/Home';
-import Footer from './components/pages/Footer/Footer';
-import Pricing from './components/Pricing/Pricing';
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home/Home";
+import Services from "./components/pages/Services/Services";
+import Footer from "./components/pages/Footer/Footer";
+import Pricing from "./components/Pricing/Pricing";
 
 function App() {
   return (
-    <Router>
-      <Navbar/>
-      <Home/>
-      <Pricing/>
-      <Footer/>
-    </Router>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
