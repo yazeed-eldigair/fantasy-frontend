@@ -1,19 +1,25 @@
-import "./App.css";
+import { Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import { Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home/Home";
-import Services from "./components/pages/Services/Services";
-import Footer from "./components/pages/Footer/Footer";
-import Pricing from "./components/Pricing/Pricing";
+import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Home from "./pages/Home/Home";
+import Services from "./pages/Services/Services";
+import Products from "./pages/Products/Products";
+import SignUp from "./pages/SignUp/SignUp";
+import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-      </Routes>
+      <ScrollToTop>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/services" component={Services}/>
+          <Route path="/products" component={Products}/>
+          <Route path="/sign-up" component={SignUp}/>
+        </Switch>
+      </ScrollToTop>
       <Footer />
     </>
   );

@@ -1,8 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../../Button/Button";
-import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa';
-import './Footer.css';
+import { Button } from "../Button/Button";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -67,7 +73,7 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to='/' className="social-logo">
+            <Link to="/" className="social-logo">
               Fantasy
             </Link>
           </div>
@@ -79,7 +85,7 @@ function Footer() {
               target="_blank"
               aria-label="Facebook"
             >
-              <FaFacebook/>
+              <FaFacebook />
             </Link>
             <Link
               className="social-icon-link"
@@ -87,7 +93,7 @@ function Footer() {
               target="_blank"
               aria-label="Instagram"
             >
-              <FaInstagram/>
+              <FaInstagram />
             </Link>
             <Link
               className="social-icon-link"
@@ -95,7 +101,7 @@ function Footer() {
               target="_blank"
               aria-label="Youtube"
             >
-              <FaYoutube/>
+              <FaYoutube />
             </Link>
             <Link
               className="social-icon-link"
@@ -103,7 +109,7 @@ function Footer() {
               target="_blank"
               aria-label="Twitter"
             >
-              <FaTwitter/>
+              <FaTwitter />
             </Link>
             <Link
               className="social-icon-link"
@@ -111,7 +117,7 @@ function Footer() {
               target="_blank"
               aria-label="LinkedIn"
             >
-              <FaLinkedin/>
+              <FaLinkedin />
             </Link>
           </div>
         </div>
