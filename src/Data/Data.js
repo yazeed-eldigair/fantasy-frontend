@@ -9,7 +9,7 @@ export const Data = [
       "Obtain access to a premium account and get all prodcution services without hidden fees",
     buttonLabel: "Get Started",
     imgStart: "",
-    img: "images/robot.svg",
+    img: "robot",
     alt: "robot",
   },
   {
@@ -22,7 +22,7 @@ export const Data = [
       "24/7 protection in all locations ensuring secure access to account details",
     buttonLabel: "Learn More",
     imgStart: "start",
-    img: "images/secure.svg",
+    img: "secure",
     alt: "secure",
   },
   {
@@ -35,7 +35,7 @@ export const Data = [
       "Our straightforward onboarding procedure will get your ready in a matter of minutes",
     buttonLabel: "Start Now",
     imgStart: "",
-    img: "images/setup.svg",
+    img: "setup",
     alt: "setup",
   },
   {
@@ -48,7 +48,7 @@ export const Data = [
       "We securely store your data on our cloud database and make it so that it is easily accessable",
     buttonLabel: "Sign Up Now",
     imgStart: "start",
-    img: "images/analytics.svg",
+    img: "analytics",
     alt: "analytics",
   },
 ];
