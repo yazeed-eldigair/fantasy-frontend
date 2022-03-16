@@ -8,8 +8,8 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
-import "./Footer.css";
 import { RiBlazeFill } from "react-icons/ri";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -37,37 +37,33 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/sign-up">Testimonials</Link>
-            <Link to="/sign-up">Carees</Link>
-            <Link to="/sign-up">Investors</Link>
-            <Link to="/sign-up">Terms of Service</Link>
+            <Link to="/">Carees</Link>
+            <Link to="/">Our Philanthropy</Link>
+            <Link to="/">Our Partners</Link>
+            <Link to="/">Terms of Service</Link>
           </div>
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/sign-up">Testimonials</Link>
-            <Link to="/sign-up">Carees</Link>
-            <Link to="/sign-up">Investors</Link>
-            <Link to="/sign-up">Terms of Service</Link>
+            <h2>Help</h2>
+            <Link to="/">Contact Us</Link>
+            <Link to="/">Support</Link>
+            <Link to="/">FAQs</Link>
+            <Link to="/">Live Chat</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/sign-up">Testimonials</Link>
-            <Link to="/sign-up">Carees</Link>
-            <Link to="/sign-up">Investors</Link>
-            <Link to="/sign-up">Terms of Service</Link>
+            <h2>Services</h2>
+            <Link to="/">Advertise</Link>
+            <Link to="/">Sell your Products</Link>
+            <Link to="/">Become an Affiliate</Link>
+            <Link to="/">Submit Video</Link>
           </div>
           <div className="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/sign-up">Testimonials</Link>
-            <Link to="/sign-up">Carees</Link>
-            <Link to="/sign-up">Investors</Link>
-            <Link to="/sign-up">Terms of Service</Link>
+            <h2>Social Media</h2>
+            <Link to="/">Twitter</Link>
+            <Link to="/">LinkedIn</Link>
+            <Link to="/">Facebook</Link>
+            <Link to="/">Instagram</Link>
           </div>
         </div>
       </div>

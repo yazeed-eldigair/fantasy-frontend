@@ -87,7 +87,7 @@
     }
 
     .nav-menu.active {
-        background: #1c2237;
+        background: #002213;
         left: 0;
     }
 
@@ -105,19 +105,8 @@
         transition: transform 0.3s ease;
     }
 
-    .nav-item {
-        /* width: 100%; */
-    }
-
     .nav-item:hover {
         border: none;
-    }
-
-    .navbar-logo {
-        /* position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(25%, 25%); */
     }
 
     .menu-icon {

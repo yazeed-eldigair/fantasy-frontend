@@ -6,8 +6,8 @@ import Pricing from "../../components/Pricing/Pricing";
 function Products() {
   return (
     <>
+      <HomeSection {...Data[3]} />
       <Pricing /> 
-      <HomeSection {...Data[1]} />
     </>
   );
 }
