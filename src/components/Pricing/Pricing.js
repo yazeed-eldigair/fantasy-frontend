@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../Button/Button";
-import { FaFire } from "react-icons/fa";
-import { BsXDiamondFill } from "react-icons/bs";
-import { GiCrystalize } from "react-icons/gi";
+import { MdBusinessCenter } from "react-icons/md";
+import { GiDiamonds } from "react-icons/gi";
+import { IoDiamond } from "react-icons/io5";
 import { IconContext } from "react-icons/lib";
 import "./Pricing.css";
 
@@ -18,15 +18,15 @@ function Pricing() {
               <Link to="/sign-up" className="pricing-container-card">
                 <div className="pricing-container-cardInfo">
                   <div className="icon">
-                    <FaFire />
+                    <MdBusinessCenter />
                   </div>
-                  <h3>Gold</h3>
+                  <h3>Enterprise</h3>
                   <h4>$29.99</h4>
                   <p>per month</p>
                   <ul className="pricing-container-features">
-                    <li>1,000 Transactions</li>
-                    <li>3.5% Cash Back</li>
-                    <li>$100,000 Limit</li>
+                    <li>2 Licenses</li>
+                    <li>5,000 Tokens</li>
+                    <li>$10,000 Limit</li>
                   </ul>
                   <Button buttonSize="btn-wide" buttonColor="primary">
                     Choose Plan
@@ -37,15 +37,15 @@ function Pricing() {
               <Link to="/sign-up" className="pricing-container-card">
                 <div className="pricing-container-cardInfo">
                   <div className="icon">
-                    <BsXDiamondFill />
+                    <GiDiamonds />
                   </div>
-                  <h3>Starter</h3>
-                  <h4>$8.99</h4>
+                  <h3>Professional</h3>
+                  <h4>$49.99</h4>
                   <p>per month</p>
                   <ul className="pricing-container-features">
-                    <li>100 Transactions</li>
-                    <li>2% Cash Back</li>
-                    <li>$10,000 Limit</li>
+                    <li>5 Licenses</li>
+                    <li>10,000 Tokens</li>
+                    <li>$50,000 Limit</li>
                   </ul>
                   <Button buttonSize="btn-wide" buttonColor="blue">
                     Choose Plan
@@ -56,15 +56,15 @@ function Pricing() {
               <Link to="/sign-up" className="pricing-container-card">
                 <div className="pricing-container-cardInfo">
                   <div className="icon">
-                    <GiCrystalize />
+                    <IoDiamond />
                   </div>
-                  <h3>Diamond</h3>
+                  <h3>Premium</h3>
                   <h4>$99.99</h4>
                   <p>per month</p>
                   <ul className="pricing-container-features">
-                    <li>Unlimited Transactions</li>
-                    <li>5% Cash Back</li>
-                    <li>Unlimited Limit</li>
+                    <li>8 Licenses</li>
+                    <li>10,000 Tokens</li>
+                    <li>No Cash Limit</li>
                   </ul>
                   <Button buttonSize="btn-wide" buttonColor="primary">
                     Choose Plan

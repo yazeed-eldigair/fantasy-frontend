@@ -9,13 +9,14 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import "./Footer.css";
+import { RiBlazeFill } from "react-icons/ri";
 
 function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join the Adventure newsletter to receive our best vacation deals
+          Stay up to date with our latest products and deals!
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time
@@ -74,7 +75,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              Fantasy
+              <RiBlazeFill/> Fantasy
             </Link>
           </div>
           <small className="website-rights">FTSY © 2022</small>
