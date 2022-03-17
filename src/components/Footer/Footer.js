@@ -37,40 +37,40 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/">Carees</Link>
-            <Link to="/">Our Philanthropy</Link>
-            <Link to="/">Our Partners</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/react-website-1">Carees</Link>
+            <Link to="/react-website-1">Our Philanthropy</Link>
+            <Link to="/react-website-1">Our Partners</Link>
+            <Link to="/react-website-1">Terms of Service</Link>
           </div>
           <div className="footer-link-items">
             <h2>Help</h2>
-            <Link to="/">Contact Us</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">FAQs</Link>
-            <Link to="/">Live Chat</Link>
+            <Link to="/react-website-1">Contact Us</Link>
+            <Link to="/react-website-1">Support</Link>
+            <Link to="/react-website-1">FAQs</Link>
+            <Link to="/react-website-1">Live Chat</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>Services</h2>
-            <Link to="/">Advertise</Link>
-            <Link to="/">Sell your Products</Link>
-            <Link to="/">Become an Affiliate</Link>
-            <Link to="/">Submit Video</Link>
+            <Link to="/react-website-1">Advertise</Link>
+            <Link to="/react-website-1">Sell your Products</Link>
+            <Link to="/react-website-1">Become an Affiliate</Link>
+            <Link to="/react-website-1">Submit Video</Link>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Twitter</Link>
-            <Link to="/">LinkedIn</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Instagram</Link>
+            <Link to="/react-website-1">Twitter</Link>
+            <Link to="/react-website-1">LinkedIn</Link>
+            <Link to="/react-website-1">Facebook</Link>
+            <Link to="/react-website-1">Instagram</Link>
           </div>
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/react-website-1" className="social-logo">
               <RiBlazeFill/> Fantasy
             </Link>
           </div>
@@ -78,7 +78,7 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link"
-              to="/"
+              to="/react-website-1"
               target="_blank"
               aria-label="Facebook"
             >
@@ -86,7 +86,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to="/react-website-1"
               target="_blank"
               aria-label="Instagram"
             >
@@ -94,7 +94,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to="/react-website-1"
               target="_blank"
               aria-label="Youtube"
             >
@@ -102,7 +102,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to="/react-website-1"
               target="_blank"
               aria-label="Twitter"
             >
@@ -110,7 +110,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to="/react-website-1"
               target="_blank"
               aria-label="LinkedIn"
             >

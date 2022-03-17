@@ -14,10 +14,10 @@ function App() {
       <Navbar />
       <ScrollToTop>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/services" component={Services}/>
-          <Route path="/products" component={Products}/>
-          <Route path="/sign-up" component={SignUp}/>
+          <Route path="/react-website-1" exact component={Home} />
+          <Route path="/react-website-1/services" component={Services}/>
+          <Route path="/react-website-1/products" component={Products}/>
+          <Route path="/react-website-1/sign-up" component={SignUp}/>
         </Switch>
       </ScrollToTop>
       <Footer />

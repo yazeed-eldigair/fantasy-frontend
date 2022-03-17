@@ -15,7 +15,7 @@ function Pricing() {
           <div className="pricing-wraper">
             <h1 className="pricing-heading">Pricing</h1>
             <div className="pricing-container">
-              <Link to="/sign-up" className="pricing-container-card">
+              <Link to="/react-website-1/sign-up" className="pricing-container-card">
                 <div className="pricing-container-cardInfo">
                   <div className="icon">
                     <MdBusinessCenter />
@@ -34,7 +34,7 @@ function Pricing() {
                 </div>
               </Link>
 
-              <Link to="/sign-up" className="pricing-container-card">
+              <Link to="/react-website-1/sign-up" className="pricing-container-card">
                 <div className="pricing-container-cardInfo">
                   <div className="icon">
                     <GiDiamonds />
@@ -53,7 +53,7 @@ function Pricing() {
                 </div>
               </Link>
 
-              <Link to="/sign-up" className="pricing-container-card">
+              <Link to="/react-website-1/sign-up" className="pricing-container-card">
                 <div className="pricing-container-cardInfo">
                   <div className="icon">
                     <IoDiamond />

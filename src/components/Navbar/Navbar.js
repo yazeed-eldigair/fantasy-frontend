@@ -27,7 +27,7 @@ function Navbar() {
     <IconContext.Provider value={{ color: "#fff" }}>
       <div className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/react-website-1" className="navbar-logo" onClick={closeMobileMenu}>
             <RiBlazeFill className="navbar-icon" />
             Fantasy
           </Link>
@@ -36,27 +36,27 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/react-website-1" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/react-website-1/services" className="nav-links" onClick={closeMobileMenu}>
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/react-website-1/products" className="nav-links" onClick={closeMobileMenu}>
                 Products
               </Link>
             </li>
             <li className="nav-btn">
               {button ? (
-                <Link to="/sign-up" className="btn-link">
+                <Link to="/react-website-1/sign-up" className="btn-link">
                   <Button buttonStyle="btn--outline"> SIGN UP </Button>
                 </Link>
               ) : (
-                <Link to="/sign-up" className="btn-link" onClick={closeMobileMenu}>
+                <Link to="/react-website-1/sign-up" className="btn-link" onClick={closeMobileMenu}>
                   <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
                     {" "}
                     SIGN UP{" "}
