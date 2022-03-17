@@ -117,3 +117,31 @@ img {
     flex-basis: 100%;
   }
 }
+
+@media screen and (max-width: 633px) {
+  .container {
+    padding: 20px;
+  }
+
+  .row {
+    margin-left: 0;
+  }
+
+  .col {
+    padding: 0;
+  }
+
+  .home-section-text-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-section-img-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-section-img{
+    margin: 0;
+  }
+}
